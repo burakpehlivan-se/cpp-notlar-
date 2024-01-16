@@ -58,8 +58,8 @@ int main() {
     std::cout << a - b << "\n"; //çkt: -1, a ve b değişkenlerinin farkını ekrana yazdırdık.
     std::cout << a * b << "\n"; //çkt: 30, a ve b değişkenlerinin çarpımını ekrana yazdırdık.
     std::cout << a / b << "\n"; //çkt: 0, a ve b değişkenlerinin bölümünü ekrana yazdırdık.
-    std::cout << a % 2 << "\n"; //çkt: 1, a değişkeninin 5 ile modunu (5 ile bölümünden kalan) ekrana yazdırdık.
-    std::cout << b % 2 << "\n"; //çkt: 0, b değişkeninin 6 ile modunu (6 ile bölümünden kalan) ekrana yazdırdık.
+    std::cout << a % 2 << "\n"; //çkt: 1, a değişkeninin 2 ile modunu (2 ile bölümünden kalan) ekrana yazdırdık. (teklik çiftlik kontrolünde bu yapıyı kullanacağız)
+    std::cout << b % 3 << "\n"; //çkt: 0, b değişkeninin 3 ile modunu (3 ile bölümünden kalan) ekrana yazdırdık.
 
 
     // std::string (string - metin) veri tipi
