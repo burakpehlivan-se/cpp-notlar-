@@ -51,8 +51,8 @@ int main() {
 
     // int (integer - tam sayı) veri tipi
     // int değerler üzerinde işlemler yapılabilir.
-    int a = 5; // int a = 5; kodu integer (tam sayı) veri tipindeki a değişkenine 5 değerini atadık.
-    int b = 6; // int b = 6; kodu integer (tam sayı) veri tipindeki b değişkenine 6 değerini atadık.
+    int a = 5; // integer (tam sayı) veri tipindeki a değişkenine 5 değerini atadık.
+    int b = 6; // integer (tam sayı) veri tipindeki b değişkenine 6 değerini atadık.
 
     std::cout << a + b << "\n"; //çkt: 11, a ve b değişkenlerinin toplamını ekrana yazdırdık.
     std::cout << a - b << "\n"; //çkt: -1, a ve b değişkenlerinin farkını ekrana yazdırdık.
