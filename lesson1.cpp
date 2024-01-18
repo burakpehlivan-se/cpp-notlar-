@@ -127,6 +127,13 @@ int main() {
     d2 += 1; // d2 değişkeninin değerini 1 arttırdık.
     std::cout << d2 << "\n"; //çkt: 6, d2 değişkeninin değerini ekrana yazdırdık.
 
+    // SABİT DEĞİŞKEN TANIMLAMAK
+    // Tanımladığımız değişkenin değerinin kod içerisinde değiştirilmemesini istiyorsank const yapısı ile sabit değişken tanımlarız.
+    // const yapısı const (değişken türü) (değişken adı) = (değişken değeri) yapısı ile kullanılır.
+
+    const double pi = 3.14;  // pi değişkeninin değerini 3.14 e sabit olarak tanımladık.
+    //pi = 5 gibi bir kod yazdığımızda sabit olarak tanımlanan değeri değiştiremezsiniz hatası alırız.
+
 
     return 0;
 }
