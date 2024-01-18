@@ -67,7 +67,7 @@ int main() {
     std::string text1 = "Hello"; // string (metin) veri tipindeki text1 değişkenine "Hello" değerini atadık.
     std::string text2 = "World"; // string (metin) veri tipindeki text2 değişkenine "World" değerini atadık.
 
-    std::cout << text1 + " " + text2 << "\n"; //çkt: Merhaba Dünya, text1 ve text2 değişkenlerini birleştirip ekrana yazdırdık.
+    std::cout << text1 + " " + text2 << "\n"; //çkt: Hello World, text1 ve text2 değişkenlerini birleştirip ekrana yazdırdık.
     std::cout << "ilk kodum: " + text1 + " " + text2 << "\n"; //çkt: ilk kodum: Hello World, text1 ve text2 değişkenlerini birleştirip ekrana yazdırdık.
     //  std::cout << "3" + 2 << "\n"; //çkt: HATA VERİR, string (metin) veri tipi ile integer (tam sayı) veri tipi toplanamaz.
 
