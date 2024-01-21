@@ -1,7 +1,7 @@
 #include <iostream>
 /*
 Kodumuzun düzgün çalışabilmesi için koda kütüphaneler eklememiz gerekmekte iostream kütüphanesi de
-temel işlevler için kullnacağımız kütüphane.
+temel işlevler için kullanacağımız kütüphane.
 */
 
 int main() {
