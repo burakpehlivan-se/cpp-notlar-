@@ -21,7 +21,7 @@ int main() {
     // NOT2: ; (noktalı virgül) her c++ kod satırının sonunda bulunması gereken bir ifadedir.
 
 
-    // DEĞİŞKEN TİPLERİ VE DEĞİŞKEN TANIMLAMA
+    // DEĞİŞKEN TANIMLAMA
 
     // Değişkenler programlama dillerinde veri tutmak için kullanılan yapılardır.
 
