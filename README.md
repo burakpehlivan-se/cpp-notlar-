@@ -29,7 +29,7 @@
 
 - for döngüsü
 
-## Lesson 5 (gelecek)
+## Lesson 5
 
 - Fonksiyonlar ve fonksiyon tanımlama
 
