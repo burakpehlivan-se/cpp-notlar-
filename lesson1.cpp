@@ -106,6 +106,18 @@ int main() {
     std::cout << b1 << "\n"; //çkt: 1, b1 değişkeninin değerini ekrana yazdırdık.
     std::cout << b2 << "\n"; //çkt: 0, b2 değişkeninin değerini ekrana yazdırdık.
 
+    // Değişkenler verileri RAM (geçici bellek) üzerinde tutar.
+    // Program çalıştığı sürece değişkenler RAM üzerinde tutulur.
+    // Değişkenlerin tuttuğu veriler program sonlandığında RAM'den silinir.
+    // Veri Türleri ve RAM'de kapladığı alanlar
+    // bir adet;
+        // integer = 4 byte
+        // float = 4 byte
+        // double = 8 byte
+        // char = 1 byte
+        // bool = 1 byte
+    // yer kaplar. (bilmek zorunda değilsiniz(ama bilseniz fena olmaz.)).
+
     // DEĞİŞKENLERİN DEĞERLERİNİ DEĞİŞTİRMEK
     // Değişkenlerin değerlerini değiştirmek için = (eşittir) işaretini kullanıyoruz.
     int d1 = 5; // int d1 = 5; kodu integer (tam sayı) veri tipindeki d1 değişkenine 5 değerini atadık.
