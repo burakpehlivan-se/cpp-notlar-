@@ -25,7 +25,7 @@
 
 - while döngüsü
 
-## Lesson 4 (gelecek)
+## [Lesson 4](https://github.com/MR-Wrestler/cpp-notlar-/blob/main/lesson4.cpp)
 
 - for döngüsü
 
