@@ -3,7 +3,7 @@
 //
 
 /*
- * FOR DÖNGÜSÜ
+ * FOR DÃ–NGÃœSÃœ
  */
 #include <iostream>
 using namespace std;
@@ -11,17 +11,17 @@ using namespace std;
 
 int main() {
 
-// For döngüsü de while döngüsü gibi bir döngü yapısıdır.
-// for döngüsünde koşul ile birlikte başlangıç değeri ve artış miktarı da belirtilir.
-// For döngüsü şu taslak ile kullanılır:
+// For dÃ¶ngÃ¼sÃ¼ de while dÃ¶ngÃ¼sÃ¼ gibi bir dÃ¶ngÃ¼ yapÄ±sÄ±dÄ±r.
+// for dÃ¶ngÃ¼sÃ¼nde koÅŸul ile birlikte baÅŸlangÄ±Ã§ deÄŸeri ve artÄ±ÅŸ miktarÄ± da belirtilir.
+// For dÃ¶ngÃ¼sÃ¼ ÅŸu taslak ile kullanÄ±lÄ±r:
 /*
-for (başlangıç değeri; koşul; artış miktarı) {
-     // koşul sağlandığında döngü boyunca çalışacak kodlar
+for (baÅŸlangÄ±Ã§ deÄŸeri; koÅŸul; artÄ±ÅŸ miktarÄ±) {
+     // koÅŸul saÄŸlandÄ±ÄŸÄ±nda dÃ¶ngÃ¼ boyunca Ã§alÄ±ÅŸacak kodlar
  }
- */
+*/
 
-// Örnek1:
-// 1'den 15'e kadar olan sayıları ekrana yazdıralım.
+// Ã–rnek1:
+// 1'den 15'e kadar olan sayÄ±larÄ± ekrana yazdÄ±ralÄ±m.
    int number = 15;
 
    for (int i = 0; i < number; i++) {
@@ -29,100 +29,100 @@ for (başlangıç değeri; koşul; artış miktarı) {
    }
     cout << "\n----------------\n";
 
-   // kullanıcıdan sayı girmesi istenecek kullanıcının girdiği sayıya kadar olan çift sayıları ekrana yazdıracağız
-    // örnek: kullanıcı 10 girdiğinde ekrana 0 2 4 6 8 yazacak
+   // kullanÄ±cÄ±dan sayÄ± girmesi istenecek kullanÄ±cÄ±nÄ±n girdiÄŸi sayÄ±ya kadar olan Ã§ift sayÄ±larÄ± ekrana yazdÄ±racaÄŸÄ±z
+    // Ã¶rnek: kullanÄ±cÄ± 10 girdiÄŸinde ekrana 0 2 4 6 8 yazacak
     int number1;
 
-    cout << "bir sayı giriniz";
+    cout << "bir sayÄ± giriniz";
     cin >> number1;
     for (int i = 0; i < number1; i+=2) {
         cout << i << " ";
     }
-    // kullanıcı 10 sayısını girsin
-    // i = 0 => 0 < 10 => 0 yazdır i yi 2 arttır
-    // i = 2 => 2 < 10 => 2 yazdır i yi 2 arttır
-    // i = 4 => 4 < 10 => 4 yazdır i yi 2 arttır
-    // i = 6 => 6 < 10 => 6 yazdır i yi 2 arttır
-    // i = 8 => 8 < 10 => 8 yazdır i yi 2 arttır
-    // i = 10 => 10 < 10 => 10 YAZDIRMAZ DÖNGÜDEN ÇIKAR
+    // kullanÄ±cÄ± 10 sayÄ±sÄ±nÄ± girsin
+    // i = 0 => 0 < 10 => 0 yazdÄ±r i yi 2 arttÄ±r
+    // i = 2 => 2 < 10 => 2 yazdÄ±r i yi 2 arttÄ±r
+    // i = 4 => 4 < 10 => 4 yazdÄ±r i yi 2 arttÄ±r
+    // i = 6 => 6 < 10 => 6 yazdÄ±r i yi 2 arttÄ±r
+    // i = 8 => 8 < 10 => 8 yazdÄ±r i yi 2 arttÄ±r
+    // i = 10 => 10 < 10 => 10 YAZDIRMAZ DÃ–NGÃœDEN Ã‡IKAR
 
 
-// Örnek2:
-// girilen sayıdan 0 a kadar olan tek sayıları ekrana "1. tek sayı bu 2. tek sayı bu şeklinde yazacak for döngüsü"
+// Ã–rnek2:
+// girilen sayÄ±dan 0 a kadar olan tek sayÄ±larÄ± ekrana "1. tek sayÄ± bu 2. tek sayÄ± bu ÅŸeklinde yazacak for dÃ¶ngÃ¼sÃ¼"
     int number2;
-    cout << "bir sayı giriniz";
+    cout << "bir sayÄ± giriniz";
     cin >> number2;
     int j = 1;
     for (int i = 1 ; i < number2; i+=2) {
-    cout << "0 dan " << number2 << "'e kadar olan " << j << ". tek sayı " << i << "\n";
+    cout << "0 dan " << number2 << "'e kadar olan " << j << ". tek sayÄ± " << i << "\n";
     j++;
     }
-// number2 adında bir değişken tanımladık ve kullanıcıdan bir sayı girmesini istedik.
-// j adında bir değişken tanımladık ve değerini 1 olarak atadık. bu değişkeni tek sayıları saymak için (1.sayı, 2.sayı...) kullanacağız.
-// for döngüsünün içinde i değişkenini 0 olarak tanımladık ve i değişkeninin değeri number2 değişkeninin değerine eşit olana dek döngüyü çalıştırdık.
-// döngü her çalıştığında i değişkeninin değerini 2 arttırdık. (i+=2)
-// döngü her çalıştığında j değişkeninin değerini 1 arttırdık. (j++)
-// kullanıcı 10 sayısını girdiğinde döngü şu şekilde çalışır:
-// i = 1 => 1 < 10 => 1 yazdır. j = 1 => 1. tek sayı yazdırır. j yi 1 arttırır i yi 2 arttır.
-// i = 3 => 3 < 10 => 3 yazdır. j = 2 => 2. tek sayı yazdırır. j yi 1 arttırır i yi 2 arttır.
-// i = 5 => 5 < 10 => 5 yazdır. j = 3 => 3. tek sayı yazdırır. j yi 1 arttırır i yi 2 arttır.
-// i = 7 => 7 < 10 => 7 yazdır. j = 4 => 4. tek sayı yazdırır. j yi 1 arttırır i yi 2 arttır.
-// i = 9 => 9 < 10 => 9 yazdır. j = 5 => 5. tek sayı yazdırır. j yi 1 arttırır i yi 2 arttır.
-// i = 11 => 11 < 10 => 11 YAZMAZ DÖNGÜDEN ÇIKAR.
+// number2 adÄ±nda bir deÄŸiÅŸken tanÄ±mladÄ±k ve kullanÄ±cÄ±dan bir sayÄ± girmesini istedik.
+// j adÄ±nda bir deÄŸiÅŸken tanÄ±mladÄ±k ve deÄŸerini 1 olarak atadÄ±k. bu deÄŸiÅŸkeni tek sayÄ±larÄ± saymak iÃ§in (1.sayÄ±, 2.sayÄ±...) kullanacaÄŸÄ±z.
+// for dÃ¶ngÃ¼sÃ¼nÃ¼n iÃ§inde i deÄŸiÅŸkenini 0 olarak tanÄ±mladÄ±k ve i deÄŸiÅŸkeninin deÄŸeri number2 deÄŸiÅŸkeninin deÄŸerine eÅŸit olana dek dÃ¶ngÃ¼yÃ¼ Ã§alÄ±ÅŸtÄ±rdÄ±k.
+// dÃ¶ngÃ¼ her Ã§alÄ±ÅŸtÄ±ÄŸÄ±nda i deÄŸiÅŸkeninin deÄŸerini 2 arttÄ±rdÄ±k. (i+=2)
+// dÃ¶ngÃ¼ her Ã§alÄ±ÅŸtÄ±ÄŸÄ±nda j deÄŸiÅŸkeninin deÄŸerini 1 arttÄ±rdÄ±k. (j++)
+// kullanÄ±cÄ± 10 sayÄ±sÄ±nÄ± girdiÄŸinde dÃ¶ngÃ¼ ÅŸu ÅŸekilde Ã§alÄ±ÅŸÄ±r:
+// i = 1 => 1 < 10 => 1 yazdÄ±r. j = 1 => 1. tek sayÄ± yazdÄ±rÄ±r. j yi 1 arttÄ±rÄ±r i yi 2 arttÄ±r.
+// i = 3 => 3 < 10 => 3 yazdÄ±r. j = 2 => 2. tek sayÄ± yazdÄ±rÄ±r. j yi 1 arttÄ±rÄ±r i yi 2 arttÄ±r.
+// i = 5 => 5 < 10 => 5 yazdÄ±r. j = 3 => 3. tek sayÄ± yazdÄ±rÄ±r. j yi 1 arttÄ±rÄ±r i yi 2 arttÄ±r.
+// i = 7 => 7 < 10 => 7 yazdÄ±r. j = 4 => 4. tek sayÄ± yazdÄ±rÄ±r. j yi 1 arttÄ±rÄ±r i yi 2 arttÄ±r.
+// i = 9 => 9 < 10 => 9 yazdÄ±r. j = 5 => 5. tek sayÄ± yazdÄ±rÄ±r. j yi 1 arttÄ±rÄ±r i yi 2 arttÄ±r.
+// i = 11 => 11 < 10 => 11 YAZMAZ DÃ–NGÃœDEN Ã‡IKAR.
 
 
 
-// Örnek3:
-// Kullanıcıdan alınan sayıya kadar olan sayıların toplamını ekrana yazdıralım.
+// Ã–rnek3:
+// KullanÄ±cÄ±dan alÄ±nan sayÄ±ya kadar olan sayÄ±larÄ±n toplamÄ±nÄ± ekrana yazdÄ±ralÄ±m.
     int number3;
     int total = 0;
-    cout << "bir sayı giriniz";
+    cout << "bir sayÄ± giriniz";
     cin >> number3;
     for (int i = 0; i <= number3; i++) {
         total = total + i;
     }
     cout << "toplam: " << total << "\n";
 
-// Bu örnekte düşündüğümüzde hafızada tutacağımız iki farklı veri var
-// bunlar kullanıcının girdiği sayı (number3) ve sayıların toplam değeri (total).
+// Bu Ã¶rnekte dÃ¼ÅŸÃ¼ndÃ¼ÄŸÃ¼mÃ¼zde hafÄ±zada tutacaÄŸÄ±mÄ±z iki farklÄ± veri var
+// bunlar kullanÄ±cÄ±nÄ±n girdiÄŸi sayÄ± (number3) ve sayÄ±larÄ±n toplam deÄŸeri (total).
 
-// for döngüsünün içinde i değişkenini 0 olarak tanımladık ve i değişkeninin değeri number3 değişkeninin değerine eşit olana dek döngüyü çalıştırdık.
-// döngü her çalıştığında total değişkeninin değerini i değişkeninin değeri ile topladık.
-// kullanıcı 5 sayısını girdiğinde döngü şu şekilde çalışır:
+// for dÃ¶ngÃ¼sÃ¼nÃ¼n iÃ§inde i deÄŸiÅŸkenini 0 olarak tanÄ±mladÄ±k ve i deÄŸiÅŸkeninin deÄŸeri number3 deÄŸiÅŸkeninin deÄŸerine eÅŸit olana dek dÃ¶ngÃ¼yÃ¼ Ã§alÄ±ÅŸtÄ±rdÄ±k.
+// dÃ¶ngÃ¼ her Ã§alÄ±ÅŸtÄ±ÄŸÄ±nda total deÄŸiÅŸkeninin deÄŸerini i deÄŸiÅŸkeninin deÄŸeri ile topladÄ±k.
+// kullanÄ±cÄ± 5 sayÄ±sÄ±nÄ± girdiÄŸinde dÃ¶ngÃ¼ ÅŸu ÅŸekilde Ã§alÄ±ÅŸÄ±r:
 // i = 0 => 0 <= 5 => total = 0 + 0 = 0, total = 0 , i++
 // i = 1 => 1 <= 5 => total = 0 + 1 = 1, total = 1 , i++
 // i = 2 => 2 <= 5 => total = 1 + 2 = 3, total = 3 , i++
 // i = 3 => 3 <= 5 => total = 3 + 3 = 6, total = 6 , i++
 // i = 4 => 4 <= 5 => total = 6 + 4 = 10, total = 10 , i++
 // i = 5 => 5 <= 5 => total = 10 + 5 = 15, total = 15 , i++
-// i = 6 => 6 <= 5 => 6 <= 5 sağlanmadığı için döngüden çıkar.
-// çkt: toplam: 15
+// i = 6 => 6 <= 5 => 6 <= 5 saÄŸlanmadÄ±ÄŸÄ± iÃ§in dÃ¶ngÃ¼den Ã§Ä±kar.
+// Ã§kt: toplam: 15
 
 
 
-// Örnek4:
-// Kullanıcıdan alınan sayının faktöriyelini ekrana yazdıralım.
+// Ã–rnek4:
+// KullanÄ±cÄ±dan alÄ±nan sayÄ±nÄ±n faktÃ¶riyelini ekrana yazdÄ±ralÄ±m.
     int number4;
     int total2 = 1;
-    cout << "bir sayı giriniz";
+    cout << "bir sayÄ± giriniz";
     cin >> number4;
     for (int i = 1; i <= number4; i++) {
         total2 = total2 * i;
     }
     cout << "toplam: " << total2 << "\n";
 
-// Bu örnekte düşündüğümüzde hafızada tutacağımız iki farklı veri var
-// bunlar kullanıcının girdiği sayı (number4) ve sayıların çarpım değeri (total2).
+// Bu Ã¶rnekte dÃ¼ÅŸÃ¼ndÃ¼ÄŸÃ¼mÃ¼zde hafÄ±zada tutacaÄŸÄ±mÄ±z iki farklÄ± veri var
+// bunlar kullanÄ±cÄ±nÄ±n girdiÄŸi sayÄ± (number4) ve sayÄ±larÄ±n Ã§arpÄ±m deÄŸeri (total2).
 
-// for döngüsünün içinde i değişkenini 1 olarak tanımladık ve i değişkeninin değeri number4 değişkeninin değerine eşit olana dek döngüyü çalıştırdık.
-// döngü her çalıştığında total2 değişkeninin değerini i değişkeninin değeri ile çarptık.
-// kullanıcı 5 sayısını girdiğinde döngü şu şekilde çalışır:
+// for dÃ¶ngÃ¼sÃ¼nÃ¼n iÃ§inde i deÄŸiÅŸkenini 1 olarak tanÄ±mladÄ±k ve i deÄŸiÅŸkeninin deÄŸeri number4 deÄŸiÅŸkeninin deÄŸerine eÅŸit olana dek dÃ¶ngÃ¼yÃ¼ Ã§alÄ±ÅŸtÄ±rdÄ±k.
+// dÃ¶ngÃ¼ her Ã§alÄ±ÅŸtÄ±ÄŸÄ±nda total2 deÄŸiÅŸkeninin deÄŸerini i deÄŸiÅŸkeninin deÄŸeri ile Ã§arptÄ±k.
+// kullanÄ±cÄ± 5 sayÄ±sÄ±nÄ± girdiÄŸinde dÃ¶ngÃ¼ ÅŸu ÅŸekilde Ã§alÄ±ÅŸÄ±r:
 // i = 1 => 1 <= 5 => total2 = 1 * 1 = 1, total2 = 1 , i++
 // i = 2 => 2 <= 5 => total2 = 1 * 2 = 2, total2 = 2 , i++
 // i = 3 => 3 <= 5 => total2 = 2 * 3 = 6, total2 = 6 , i++
 // i = 4 => 4 <= 5 => total2 = 6 * 4 = 24, total2 = 24 , i++
 // i = 5 => 5 <= 5 => total2 = 24 * 5 = 120, total2 = 120 , i++
-// i = 6 => 6 <= 5 => 6 <= 5 sağlanmadığı için döngüden çıkar.
+// i = 6 => 6 <= 5 => 6 <= 5 saÄŸlanmadÄ±ÄŸÄ± iÃ§in dÃ¶ngÃ¼den Ã§Ä±kar.
 
 return 0;
 
